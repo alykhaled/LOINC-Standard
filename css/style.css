@@ -52,7 +52,7 @@ nav a:hover {
 }
 
 main {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 20px auto;
 	padding: 20px;
 	background-color: #fff;
@@ -106,4 +106,38 @@ footer p {
 	nav li {
 		margin: 10px 0;
 	}
+}
+
+#history{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+#history img{
+    height: 400px;
+    margin: 10px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+
+#history img:hover{
+    transform: scale(1.1);
+}
+
+img {
+    transition: 0.3s;
+
+}
+
+
+img:hover{
+    transform: scale(1.1);
+}
+
+#mapping img{
+    align-self: center;
+}
+#mapping ul{
+    display: flex;
+    flex-direction: column;
 }
